@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "cobblemon:galarica_twig"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "input": {
+        "item": "cobblemon:galarica_twig"
+    },
+    "soil": {
+        "tag": "botanypots:soil/sand"
+    },
+    "grow_time": 1200,
+    "display": {
+        "type": "botanypots:aging",
+        "block": "cobblemon:galarica_twig"
+    },
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "cobblemon:galarica_twig"
+                    },
+                    "chance": 1.00,
+                    "minRolls": 1,
+                    "maxRolls": 2
+                }
+            ]
+        }
+    ]
+}

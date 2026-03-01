@@ -1,0 +1,63 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Directories and Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Archive Files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Development Files
+.cache/
+*.log
+
+# Python (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# Node (if using Node.js tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs (if applicable)
+build/
+dist/
+out/
+
+# Custom exclusions
+*.old
+draft/
+WIP/

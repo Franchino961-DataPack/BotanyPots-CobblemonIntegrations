@@ -1,0 +1,37 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "cobblemon:hearty_grains"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "input": {
+        "item": "cobblemon:hearty_grains"
+    },
+    "soil": {
+        "tag": "botanypots:soil/dirt"
+    },
+    "grow_time": 1800,
+    "display": {
+        "type": "botanypots:aging",
+        "block": "cobblemon:hearty_grains"
+    },
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "cobblemon:hearty_grains"
+                    },
+                    "chance": 1.00,
+                    "minRolls": 2,
+                    "maxRolls": 3
+                }
+            ]
+        }
+    ]
+}

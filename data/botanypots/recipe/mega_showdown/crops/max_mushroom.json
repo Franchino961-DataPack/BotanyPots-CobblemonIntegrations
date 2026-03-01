@@ -1,0 +1,37 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "cobblemon:black_apricorn_seed"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "input": {
+    "item": "mega_showdown:max_mushroom"
+  },
+  "soil": {
+    "item": "minecraft:moss_block"
+  },
+  "grow_time": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "mega_showdown:max_mushroom"
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "mega_showdown:max_mushroom"
+          },
+          "chance": 0.50,
+          "minRolls": 0,
+          "maxRolls": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "cobblemon:black_apricorn_seed"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "input": {
+    "item": "cobblemon:big_root"
+  },
+  "soil": {
+    "tag": "botanypots:soil/moss"
+  },
+  "grow_time": 1200,
+  "display": {
+    "type": "botanypots:simple",
+    "block_state": {
+      "block": "cobblemon:big_root"
+    },
+    "options": {
+      "rotation": "X_180"
+    }
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "cobblemon:big_root"
+          },
+          "chance": 1.00
+        },
+        {
+          "result": {
+            "id": "cobblemon:energy_root"
+          },
+          "chance": 0.25
+        }
+      ]
+    }
+  ]
+}

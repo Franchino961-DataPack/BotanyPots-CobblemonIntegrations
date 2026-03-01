@@ -1,0 +1,41 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:item_exists",
+      "values": [
+        "cobblemon:black_apricorn_seed"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "input": {
+    "item": "cobblemon:revival_herb"
+  },
+  "soil": {
+    "tag": "botanypots:soil/dirt"
+  },
+  "grow_time": 1200,
+  "display": {
+    "type": "botanypots:aging",
+    "block": "cobblemon:revival_herb"
+  },
+  "drops": [
+    {
+      "type": "botanypots:items",
+      "items": [
+        {
+          "result": {
+            "id": "cobblemon:revival_herb"
+          },
+          "chance": 1.00
+        },
+        {
+          "result": {
+            "id": "cobblemon:pep_up_flower"
+          },
+          "chance": 0.10
+        }
+      ]
+    }
+  ]
+}

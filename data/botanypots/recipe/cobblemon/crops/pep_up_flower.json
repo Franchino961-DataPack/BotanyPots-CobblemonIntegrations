@@ -1,0 +1,39 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:item_exists",
+            "values": [
+                "cobblemon:pep_up_flower"
+            ]
+        }
+    ],
+    "type": "botanypots:crop",
+    "input": {
+        "item": "cobblemon:pep_up_flower"
+    },
+    "soil": {
+        "tag": "botanypots:soil/dirt"
+    },
+    "grow_time": 1000,
+    "display": {
+        "type": "botanypots:simple",
+        "block_state": {
+            "block": "minecraft:pink_petals"
+        }
+    },
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "cobblemon:pep_up_flower"
+                    },
+                    "chance": 1.00,
+                    "minRolls": 1,
+                    "maxRolls": 2
+                }
+            ]
+        }
+    ]
+}
