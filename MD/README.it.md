@@ -1,9 +1,16 @@
-﻿# BotanyPots - Cobblemon Integrations
+﻿# 🌿 BotanyPots - Cobblemon Integrations
 
 Un datapack per Minecraft che aggiunge ricette per piante Cobblemon compatibili con la mod BotanyPots.
 
+[![Versione](https://img.shields.io/badge/versione-1.0.0-blue.svg)]()
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green.svg)](https://www.minecraft.net/)
+[![Pack Format](https://img.shields.io/badge/Pack%20Format-61-lightgrey.svg)]()
+[![Licenza](https://img.shields.io/badge/Licenza-MIT-yellow.svg)](../LICENSE)
+
 [![en](https://img.shields.io/badge/lang-en-red.svg)](../README.md)
 [![it](https://img.shields.io/badge/lang-it-green.svg)](README.it.md)
+
+> 📝 **Changelog**: Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia delle versioni.
 
 ## 📋 Descrizione
 
@@ -70,16 +77,42 @@ Parametri che puoi modificare:
 - `chance`: Probabilità di drop (da 0.0 a 1.0)
 - `minRolls`/`maxRolls`: Numero di oggetti droppati per raccolto
 
+## ❓ FAQ
+
+**D: Funziona su mondi esistenti?**
+R: Sì, aggiungi il datapack al tuo mondo ed esegui `/reload`.
+
+**D: Posso usarlo con altri datapack?**
+R: In generale sì, a meno che un altro datapack non modifichi le ricette Cobblemon di BotanyPots nello stesso namespace.
+
+**D: Funziona senza BotanyPots o Cobblemon?**
+R: No. Sia BotanyPots che Cobblemon sono necessari — il datapack sarà inattivo senza di essi.
+
+**D: Posso aggiungere supporto per altre piante Cobblemon?**
+R: Sì! Aggiungi nuovi file di ricette JSON in `data/botanypots/recipe/cobblemon/crops/` seguendo il formato esistente.
+
+**D: Cos'è la ricetta MegaShowdown?**
+R: La ricetta del Max Mushroom richiede l'addon MegaShowdown. Se non lo hai, la ricetta viene semplicemente ignorata.
+
 ## 📄 Licenza
 
-Questo progetto è rilasciato sotto licenza MIT - vedi il file [LICENSE](../LICENSE) per i dettagli.
+Questo progetto è rilasciato sotto la [Licenza MIT](../LICENSE). Sentiti libero di includerlo nelle tue modpack!
 
-## 🤝 Contribuire
+## 👤 Autore
 
-I contributi sono benvenuti! Sentiti libero di:
-- Segnalare bug o problemi
-- Suggerire nuove funzionalità o miglioramenti
-- Inviare pull request
+**Franchino961** — [GitHub](https://github.com/Franchino961-DataPack)
+
+## 🤝 Contributi
+
+I contributi sono benvenuti!
+- Apri una [Issue](../../issues) per segnalare bug o suggerire nuove ricette
+- Apri una [Pull Request](../../pulls) per contribuire
+
+## 💬 Supporto
+
+Se riscontri problemi o hai domande:
+- Controlla le [issue esistenti](../../issues)
+- Crea una nuova issue includendo: versione di Minecraft, versione di BotanyPots e versione di Cobblemon
 
 ## 🔗 Link
 
@@ -88,15 +121,8 @@ I contributi sono benvenuti! Sentiti libero di:
 
 ## 📝 Changelog
 
-Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia delle versioni e gli aggiornamenti.
-
-## ðŸ’¬ Supporto
-
-Se riscontri problemi o hai domande:
-- Controlla i problemi esistenti nel repository
-- Crea un nuovo issue con informazioni dettagliate
-- Includi la tua versione di Minecraft, la versione di BotanyPots e la versione di Cobblemon
+Vedi [CHANGELOG.it.md](CHANGELOG.it.md) per la cronologia completa delle versioni.
 
 ---
 
-**Nota**: Questo datapack richiede l'installazione sia della mod BotanyPots che della mod Cobblemon. Non funzionerà in Minecraft vanilla.
+> ⚠️ **Nota**: Questo datapack richiede l'installazione di entrambe le mod BotanyPots e Cobblemon. Non funzionerà in Minecraft vanilla.
