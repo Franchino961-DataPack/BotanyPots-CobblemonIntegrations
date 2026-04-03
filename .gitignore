@@ -1,4 +1,8 @@
-# Operating System Files
+# =========================
+# Global / workspace noise
+# =========================
+
+# Operating system files
 .DS_Store
 .DS_Store?
 ._*
@@ -8,56 +12,163 @@ ehthumbs.db
 Thumbs.db
 Desktop.ini
 
-# Editor Directories and Files
+# Editor / IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
+*.iml
+*.ipr
+*.iws
 .project
 .classpath
 .settings/
-
-# Backup Files
-*.bak
-*.backup
+*.swp
+*.swo
 *~
 
-# Temporary Files
+# Backups / temporary files
+*.bak
+*.backup
+*.old
+*.orig
 *.tmp
 *.temp
+*.rej
+*.diff
+*.patch
+draft/
+WIP/
 
-# Archive Files
-*.zip
-*.rar
+# Logs / diagnostics
+*.log
+*.log.*
+logs/
+log/
+crash-reports/
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches / tool state
+.cache/
+.eslintcache
+.parcel-cache/
+.turbo/
+.vite/
+.stylelintcache
+.sass-cache/
+.nyc_output/
+coverage/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+*.env.*
+*.local
+*.secret
+*.secrets
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Archives / packaged artifacts
 *.7z
+*.gz
+*.rar
 *.tar
 *.tar.gz
+*.tgz
+*.zip
+*.xz
+*.bz2
 
-# Development Files
-.cache/
-*.log
+# ==================================
+# Java / Gradle / Maven / Minecraft
+# ==================================
 
-# Python (if using Python tools)
+.gradle/
+build/
+dist/
+out/
+target/
+bin/
+classes/
+generated/
+generated-sources/
+generated-resources/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.lck
+dependency-reduced-pom.xml
+
+# Minecraft / datapack / plugin / mod dev environments
+run/
+runs/
+run-*/
+.run/
+.minecraft/
+server/
+client/
+world/
+saves/
+testworld/
+testworlds/
+screenshots/
+hs_err_pid*
+replay_pid*
+
+# Common mod-loader specific folders
+.fabric/
+.forge/
+.neoforge/
+.mixin.out/
+.mcp/
+.architectury/
+
+# Common packaged outputs from mod/plugin tooling
+remappedSrc/
+remappedClasses/
+fabric-out/
+forge-out/
+neoforge-out/
+
+# ==================================
+# Python / Node / other tooling
+# ==================================
+
 __pycache__/
 *.py[cod]
 *$py.class
 .Python
-env/
+.venv/
 venv/
+env/
 ENV/
-
-# Node (if using Node.js tools)
 node_modules/
-npm-debug.log
-yarn-error.log
 
-# Build outputs (if applicable)
-build/
-dist/
-out/
+# ==================================
+# Optional local-only project files
+# ==================================
 
-# Custom exclusions
-*.old
-draft/
-WIP/
+*.pid
+*.seed
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Documentation / media / assets
+# =========================
+
+Docs/*
+!README.*.md
+!CHANGELOG.*.md
